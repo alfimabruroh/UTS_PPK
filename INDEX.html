@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMART</title>
+    <link rel="icon" href="images/icon.jpg">
+
+    <!-- FILE CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- LINK BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm" id="navbar">
+  <a href="index.html" class="navbar-brand" id="logo"><img src="./images/logoo.jpg" alt=""></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <span><i class="fa-solid fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+        <a href="#beras" class="nav-link">Beras</a>
+      </li>
+      <li class="nav-item">
+        <a href="#minyak" class="nav-link">Minyak</a>
+      </li>
+      <li class="nav-item">
+        <a href="#mie-instan" class="nav-link">Mie Instan</a>
+      </li>
+      <li class="nav-item">
+        <a href="#lainya" class="nav-link">Lainya</a>
+      </li>
+      <li class="nav-item">
+        <a href="#order" class="nav-link">Order</a>
+      </li>
+      <li class="nav-item">
+        <a href="#profil" class="nav-link">Profil</a>
+      </li>
+    </ul>
+
+    <form class="d-flex">
+      <input type="text" class="form-control me-2" placeholder="Search" required>
+      <button type="button" id="btn">Search</button>
+    </form>
+
+  </div>
+</nav>
+
+<!-- Home -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Selamat Datang di ALMART <br> Toko <span>Bahan</span>  <span>Bahan Pokok</span></h3>
+    <p>Disini kami menyediakan bahan bahan berkualitas dan terjangkau harganya</p>
+    <a href="#beras" id="home-btn">Belanja</a>
+  </div>
+  <div class="img">
+    <img src="./images/image 466.jpeg" alt="">
+  </div>
+</section>
+
+<div class="top-section">
+  <h5>KAMI MELAYANI</h5>
+  <h3>Bahan Favorit Anda <br> Jasa Pengiriman</h3>
+  <div class="row">
+
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/img1.png" alt="">
+        <div class="card-body">
+        <h1>Mudah di Pemesanan</h1>
+        <p>Kamu hanya memerlukan beberapa langkah untuk Pesan Produk</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/img2.png" alt="">
+        <div class="card-body">
+        <h1>Pengiriman Cepat</h1>
+        <p>Pengiriman yang selalu <br> tepat waktu</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/img3.png" alt="">
+        <div class="card-body">
+        <h1>Kualitas Terbaik</h1>
+        <p>Tidak hanya cepat bagi kami kualitasnya juga nomor satu</p>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+
+<!-- Beras -->
+<section class="menu" id="beras">
+  <h3>Beras</h3>
+
+  <div class="row" style="margin-top: 30px;">
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/beras1.jpg" alt="">
+        <div class="card-body">
+          <h3>Rojolele</h3>
+          <h6>Rp. 58.800-60.000</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/beras2.webp" alt="">
+        <div class="card-body">
+          <h3>Cap Bunga</h3>
+          <h6>Rp. 60.000-64.000</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/beras3.webp" alt="">
+        <div class="card-body">
+          <h3>SiPulen</h3>
+          <h6>Rp. 69.500-82.500</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/beras4.webp" alt="">
+        <div class="card-body">
+          <h3>Topi Koki</h3>
+          <h6>Rp. 69.500-79.000</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+
+<!-- Minyak -->
+<section class="menu" id="minyak">
+  <h3>Minyak</h3>
+
+  <div class="row" style="margin-top: 30px;">
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/minyak1.jpg" alt="">
+        <div class="card-body">
+          <h3>Bimoli</h3>
+          <h6>Rp. 20.950/liter</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/minyak2.jpg" alt="">
+        <div class="card-body">
+          <h3>Tropical</h3>
+          <h6>Rp. 22.000/liter</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/minyak3.jpg" alt="">
+        <div class="card-body">
+          <h3>Kunci Mas</h3>
+          <h6>Rp. 34.400/liter</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/minyak4.jpg" alt="">
+        <div class="card-body">
+          <h3>Fortune</h3>
+          <h6>Rp. 15.000/liter</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+
+<!-- Mie Instan -->
+<section class="menu" id="mie-instan">
+  <h3>Mie Instan</h3>
+
+  <div class="row" style="margin-top: 30px;">
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/mie1.webp" alt="">
+        <div class="card-body">
+          <h3>Indomie</h3>
+          <h6>Rp 2.890-17.500</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/mie2.webp" alt="">
+        <div class="card-body">
+          <h3>Mie Sedaap</h3>
+          <h6>Rp 2.900-16.200</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/mie3.webp" alt="">
+        <div class="card-body">
+          <h3>Lemonilp</h3>
+          <h6>Rp 7.200-8.800</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/mie4.webp" alt="">
+        <div class="card-body">
+          <h3>Tasty</h3>
+          <h6>Rp 5.500-18.900</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+
+<!-- Lainya -->
+<section class="menu" id="lainya">
+  <h3>Lainya</h3>
+
+  <div class="row" style="margin-top: 30px;">
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya1.webp" alt="">
+        <div class="card-body">
+          <h3>Gulaku</h3>
+          <h6>Rp 17.200/kg</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya2.webp" alt="">
+        <div class="card-body">
+          <h3>Garam</h3>
+          <h6>Rp 3.000/250gr</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya3.webp" alt="">
+        <div class="card-body">
+          <h3>Masako Ayam</h3>
+          <h6>Rp 5.340/100gr</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya4.webp" alt="">
+        <div class="card-body">
+          <h3>Tong Tji</h3>
+          <h6>Rp 11.800/25pcs</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya5.webp" alt="">
+        <div class="card-body">
+          <h3>Kapal Api</h3>
+          <h6>Rp 12.000/10pcs</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya6.webp" alt="">
+        <div class="card-body">
+          <h3>Kecap Bango</h3>
+          <h6>Rp 20.300/550ml</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya7.webp" alt="">
+        <div class="card-body">
+          <h3>Saos Indofood</h3>
+          <h6>Rp 10.000/275ml</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/lainya8.webp" alt="">
+        <div class="card-body">
+          <h3>Segitiga Biru</h3>
+          <h6>Rp 12.500/kg</h6>
+          <div class="rating">
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+            <i class="fa-solid fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<div class="container">
+  <div class="line" style="width: 100%; height: 2px; background-color: #e53937;"></div>
+</div>
+
+<!-- Order -->
+<section class="contact" id="order">
+  <div class="heading">
+    Pesan <span>Sekarang</span>
+  </div>
+
+  <div class="row">
+    <div class="col-md-5 py-3 py-md-0">
+      <h3>Order</h3>
+      <p>Isi data data yang diperlukan, kemudian klik "Order" dan pesanan anda akan langsung diproses</p>
+      <i class="fa-solid fa-phone"><span>0890670450231</span></i><br><br>
+      <i class="fa-solid fa-envelope"><span>ALMART@gmail.com</span></i><br><br>
+      <i class="fa-solid fa-location-dot"><span>Jl. Laksda Adisucipto Sleman Yogyakarta</span></i>
+    </div>
+
+    <div class="col-md-7 py-3 py-md-0">
+      <form action="#">
+        <div class="mb-3 mt-3">
+          <input type="text" class="form-control" id="name" placeholder=" masukan nama" required>
+        </div>
+        <div class="mb-3 mt-3">
+          <input type="email" class="form-control" id="email" placeholder="masukan email" required>
+        </div>
+        <div class="mb-3 mt-3">
+          <input type="number" class="form-control" id="number" placeholder="masukan nomor" required>
+        </div>
+         <textarea  class="form-control" id="comment" rows="5" name="text" placeholder="masukan alamat" required></textarea>
+         <button type="submit" class="order-btn">Order</button>
+      </form>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Profil -->
+<section class="review" id="profil">
+  <div class="row">
+
+    <div class="col-md-8 py-3 py-md-0" style="padding: 100px;">
+      <h3>Profil Pemilik Toko</h3>
+      <h2><b>Nama: </b> Alfi Mabruroh</h2>
+      <h2><b>Nim: </b> 210601110052</h2>
+      <h2><b>Kelas: </b> PPK II C</h2>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="f-content">
+    <div class="f-logo"><img src="./images/logoo.jpg" alt=""></div>
+    <p>Untuk informasi lebih lengkapnya, kunjungi media sosial kita</p>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+  <br>
+  <div class="c-content">
+    &copy; Copyright ALMART. All Rights Reserved <br>
+    <span>Designed By <a href="#">Alfi Mabruroh</a></span>
+  </div>
+</footer>
+
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CDN LINK -->
+
+
+</body>
+</html>
